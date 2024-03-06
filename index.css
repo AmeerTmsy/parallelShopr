@@ -1,0 +1,132 @@
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.first{
+    font-size: .8rem;
+}
+
+/* ==============  sec1 back img  =========== */
+.women{
+    background-image: url(https://res.cloudinary.com/dhs5i1k5f/image/upload/f_auto,q_auto/v1/my%20folder/sec1img/sefcbarheu9rpbxd3fqq);
+    background-size: cover;
+    background-position: center;
+    aspect-ratio: 4/4;
+    transition: .5s ease;
+}
+.men{
+    background-image: url(https://res.cloudinary.com/dhs5i1k5f/image/upload/f_auto,q_auto/v1/my%20folder/sec1img/ifeocqyhtggjh36qghds);
+    background-size: cover;
+    background-position: center;
+    aspect-ratio: 4/4;
+    transition: .5s ease;
+}
+.kid{
+    background-image: url(https://res.cloudinary.com/dhs5i1k5f/image/upload/f_auto,q_auto/v1/my%20folder/sec1img/vtfsbdfobgzybwjbumy1);
+    background-size: cover;
+    background-position: center;
+    aspect-ratio: 4/4;
+    transition: .5s ease;
+}
+.women:hover,
+.men:hover,
+.kid:hover{
+    opacity: .8;
+}
+
+.sec-p{
+    padding: 6rem 0;
+}
+
+/* ---------------  sec-2  ---------------- */
+
+.bags-collection{
+    margin: .7rem auto;
+    background-image: url(https://res.cloudinary.com/dhs5i1k5f/image/upload/f_auto,q_auto/v1/my%20folder/xstubhkktkr9uigthyuy);
+    background-size: cover;
+    background-position: center;
+    aspect-ratio: 4/4;
+    transition: .5s ease;
+}
+.men-printshirt{
+    position: relative;
+    margin: .7rem auto;
+    background-image: url(https://res.cloudinary.com/dhs5i1k5f/image/upload/f_auto,q_auto/v1/my%20folder/aonpv3p6qy2eapvl02ut);
+    background-size: cover;
+    background-position: center;
+    aspect-ratio: 4/1.935;
+    transition: .5s ease;
+}
+.women-basicdress{
+    margin: .7rem auto;
+    background-image: url(https://res.cloudinary.com/dhs5i1k5f/image/upload/f_auto,q_auto/v1/my%20folder/rxccbmr1zec29qmnn3xm);
+    background-size: cover;
+    background-position: center;
+    aspect-ratio: 4/1.935;
+    transition: .5s ease;
+}
+.sweetshirts{
+    margin: .7rem auto;
+    background-image: url(https://res.cloudinary.com/dhs5i1k5f/image/upload/f_auto,q_auto/v1/my%20folder/c1xu2iuycre6jyrrs66t);
+    background-size: cover;
+    background-position: center;
+    aspect-ratio: 4/4;
+    transition: .5s ease;
+}
+
+.bags-collection:hover,
+.men-printshirt:hover,
+.women-basicdress:hover,
+.sweetshirts:hover{
+    opacity: .8;
+}
+
+article a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.men-printshirt a,
+.women-basicdress a{
+    color: white;
+    font-weight: 500;
+}
+.bags-collection,
+.sweetshirts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.men-printshirt,
+.women-basicdress{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 2rem;
+}
+.offerbadg{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+.offerbadg div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff6f61;
+    height: 96px;
+    width: 96px;
+    border-radius: 50px;
+}
+.offerbadg strong{
+    font-size: medium;
+    font-weight: 500;
+}
+.offerbadg span{
+    font-size: x-large;
+    font-weight: 700;
+}
